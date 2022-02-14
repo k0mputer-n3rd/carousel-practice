@@ -1,11 +1,21 @@
 /* Mobile-Friendly Websites */
-/* bootstrap-boilerplate */
+/* carousel-practice */
 /* K0mputer N3rd */
-/* 02/05/2022 */
+/* 02/13/2022 */
 
 /* style.css */
 
 * {
   margin: 0;
   padding: 0;
+}
+
+.bg-white-25 {
+  --bs-bg-opacity: 0.25;
+  background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-black-25 {
+  --bs-bg-opacity: 0.25;
+  background-color: rgba(var(--bs-black-rgb), var(--bs-bg-opacity)) !important;
 }

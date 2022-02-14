@@ -1,64 +1,153 @@
 <!-- Mobile-Friendly Websites -->
 <!-- carousel-practice -->
 <!-- K0mputer N3rd -->
-<!-- 02/09/2022 -->
+<!-- 02/13/2022 -->
 
 <!-- index.html -->
 
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
 
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Carousel Practice</title>
   </head>
   <body>
-
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
       <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="4"
+          aria-label="Slide 5"
+        ></button>
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="./img/pexels-harrison-haines-8147572.jpg" class="d-block w-100" alt="...">
+          <img
+            src="./img/pexels-harrison-haines-8147572.jpg"
+            class="d-block w-100"
+            alt="Busy city street"
+          />
+          <div class="carousel-caption d-none d-md-block bg-white-25 text-black">
+            <h3>Road Trip</h3>
+            <p class="fs-4">Is it time to get away from the city?</p>
+          </div>
         </div>
         <div class="carousel-item">
-          <img src="./img/pexels-craig-adderley-1563356.jpg" class="d-block w-100" alt="...">
+          <img
+            src="./img/pexels-craig-adderley-1563356.jpg"
+            class="d-block w-100"
+            alt="Wooded city street"
+          />
+          <div class="carousel-caption d-none d-md-block bg-white-25 text-black">
+            <h3>Leave Town</h3>
+            <p class="fs-4">Are you feeling better now?</p>
+          </div>
         </div>
         <div class="carousel-item">
-          <img src="./img/pexels-kindel-media-9936976.jpg" class="d-block w-100" alt="...">
+          <img
+            src="./img/pexels-kindel-media-9936976.jpg"
+            class="d-block w-100"
+            alt="Mountain highway"
+          />
+          <div class="carousel-caption d-none d-md-block bg-black-25">
+            <h3>See the Country</h3>
+            <p class="fs-4">Is that fresh air I smell?</p>
+          </div>
         </div>
         <div class="carousel-item">
-          <img src="./img/pexels-pixabay-38537.jpg" class="d-block w-100" alt="...">
+          <img
+            src="./img/pexels-pixabay-38537.jpg"
+            class="d-block w-100"
+            alt="Single-lane road through trees"
+          />
+          <div class="carousel-caption d-none d-md-block bg-black-25">
+            <h3>Get Off the Beaten Path</h3>
+            <p class="fs-4">Isn't this peaceful?</p>
+          </div>
         </div>
         <div class="carousel-item">
-          <img src="./img/pexels-kinkate-368260.jpg" class="d-block w-100" alt="...">
+          <img
+            src="./img/pexels-kinkate-368260.jpg"
+            class="d-block w-100"
+            alt="Steep path on snow-covered mountain"
+          />
+          <div class="carousel-caption d-none d-md-block bg-black-25">
+            <h3>Enjoy the Mountains</h3>
+            <p class="fs-4">Have we gone a bit too far?</p>
+          </div>
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-    
+
     <!-- javaScript needs to be at the end, not the beginning. -->
-    
+
     <!-- Bootstrap Bundle with Popper -->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
